@@ -1,6 +1,7 @@
 
 endpoints:
   POST - https://q9c4gej580.execute-api.us-west-2.amazonaws.com/dev/sports
+  
   POST - https://q9c4gej580.execute-api.us-west-2.amazonaws.com/dev/bball
   GET - https://q9c4gej580.execute-api.us-west-2.amazonaws.com/dev/sports
   GET - https://q9c4gej580.execute-api.us-west-2.amazonaws.com/dev/sports/{id}
