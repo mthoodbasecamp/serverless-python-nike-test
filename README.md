@@ -1,5 +1,5 @@
 
-endpoints:
+ENDPOINTS:
 
   POST - https://q9c4gej580.execute-api.us-west-2.amazonaws.com/dev/sports
   
@@ -13,7 +13,7 @@ endpoints:
   
   DELETE - https://q9c4gej580.execute-api.us-west-2.amazonaws.com/dev/sports/{id}
   
-functions:
+FUNCTIONS:
 
   create: serverless-rest-api-with-dynamodb-dev-create
   
