@@ -1,16 +1,15 @@
-import json
 import os
+import json
 
-import decimalencoder
+from sports import decimalencoder
 import boto3
 dynamodb = boto3.resource('dynamodb')
 
 
 def list(event, context):
-    os.environ['DYNAMODB_TABLE'] = 'serverless-rest-api-with-dynamodb-dev'
     table = dynamodb.Table(os.environ['DYNAMODB_TABLE'])
 
-    # fetch all sports from the database
+    # fetch all todos from the database
     result = table.scan()
 
     # create a response

@@ -1,7 +1,7 @@
 import os
 import json
 
-import decimalencoder
+from sports import decimalencoder
 import boto3
 dynamodb = boto3.resource('dynamodb')
 
