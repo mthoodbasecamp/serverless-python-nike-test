@@ -1,27 +1,25 @@
 
 ENDPOINTS:
 
-  POST - https://q9c4gej580.execute-api.us-west-2.amazonaws.com/dev/sports
+  POST - https://njqepwoi2b.execute-api.us-west-2.amazonaws.com/dev/sports
   
-  POST - https://q9c4gej580.execute-api.us-west-2.amazonaws.com/dev/bball
+  GET - https://njqepwoi2b.execute-api.us-west-2.amazonaws.com/dev/sports
   
-  GET - https://q9c4gej580.execute-api.us-west-2.amazonaws.com/dev/sports
+  GET - https://njqepwoi2b.execute-api.us-west-2.amazonaws.com/dev/sports/{id}
   
-  GET - https://q9c4gej580.execute-api.us-west-2.amazonaws.com/dev/sports/{id}
+  PUT - https://njqepwoi2b.execute-api.us-west-2.amazonaws.com/dev/sports/{id}
   
-  PUT - https://q9c4gej580.execute-api.us-west-2.amazonaws.com/dev/sports/{id}
-  
-  DELETE - https://q9c4gej580.execute-api.us-west-2.amazonaws.com/dev/sports/{id}
+  DELETE - https://njqepwoi2b.execute-api.us-west-2.amazonaws.com/dev/sports/{id}
   
 FUNCTIONS:
 
-  create: serverless-rest-api-with-dynamodb-dev-create
+  create: serverless-aws-nike-dev-create
   
-  list: serverless-rest-api-with-dynamodb-dev-list
+  list: serverless-aws-nike-dev-list
   
-  get: serverless-rest-api-with-dynamodb-dev-get
+  get: serverless-aws-nike-dev-get
   
-  update: serverless-rest-api-with-dynamodb-dev-update
+  update: serverless-aws-nike-dev-update
   
-  delete: serverless-rest-api-with-dynamodb-dev-delete
+  delete: serverless-aws-nike-dev-delete
   
