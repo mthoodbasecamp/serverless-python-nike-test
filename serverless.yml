@@ -1,4 +1,4 @@
-service: serverless-rest-api-with-dynamodb
+service: serverless-aws-nike
 
 frameworkVersion: ">=1.1.0 <2.0.0"
 
@@ -25,10 +25,6 @@ functions:
     events:
       - http:
           path: sports
-          method: post
-          cors: true
-      - http:
-          path: bball
           method: post
           cors: true
 
