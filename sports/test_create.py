@@ -21,7 +21,7 @@ class TestHandler(unittest.TestCase):
         """ Tests get_post """
         event = {
             'pathParameters': {
-                'id': 'testname'
+                'id': 'c20b2a84-c87c-11e7-ada0-aa9e12aac09b'
             }
         }
         'id': event['pathParameters']['id']
